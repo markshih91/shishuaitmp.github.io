@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Academic</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <title>Authors | Shuai Shi` personal site</title>
+    <link>https://shishuai.org/authors/</link>
+      <atom:link href="https://shishuai.org/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jan 2020 18:51:40 +0800</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://shishuai.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://shishuai.org/authors/</link>
     </image>
     
     <item>
+      <title>Shuai Shi</title>
+      <link>https://shishuai.org/authors/shuai-shi/</link>
+      <pubDate>Tue, 21 Jan 2020 18:51:40 +0800</pubDate>
+      <guid>https://shishuai.org/authors/shuai-shi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>https://shishuai.org/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+      <guid>https://shishuai.org/authors/admin/</guid>
+      <description>&lt;p&gt;I`m a researcher of computer vision and artificial intelligence at Juefx Technology Co., Ltd. My research interests include computer vision, machine learning, deep learning and mathematics. Both of my bachelor&#39;s and master&#39;s degree are in Mathematics, and I proficient in computer algorithm.&lt;/p&gt;
+&lt;p&gt;[reapet for page aligning, in developing&amp;hellip;] I`m a researcher of computer vision and artificial intelligence at Juefx Technology Co., Ltd. My research interests include computer vision, machine learning, deep learning and mathematics. Both of my bachelor&#39;s and master&#39;s degree are in Mathematics, and I proficient in computer algorithm.&lt;/p&gt;
 </description>
     </item>
     
