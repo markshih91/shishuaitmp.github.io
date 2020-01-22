@@ -3,27 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shishuai.org/tags/algorithm/</loc>
+    <loc>https://shishuai.org/tags/matching-learing/</loc>
     <lastmod>2020-01-21T18:51:40+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shishuai.org/authors/</loc>
-    <lastmod>2020-01-21T18:51:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shishuai.org/post/2019-11-27-bounds-on-cuts/</loc>
-    <lastmod>2020-01-21T18:51:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shishuai.org/tags/graph-theory/</loc>
-    <lastmod>2020-01-21T18:51:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shishuai.org/post/my-first-post/</loc>
+    <loc>https://shishuai.org/tags/number-theory/</loc>
     <lastmod>2020-01-21T18:51:40+08:00</lastmod>
   </url>
   
@@ -33,7 +18,7 @@
   </url>
   
   <url>
-    <loc>https://shishuai.org/authors/shuai-shi/</loc>
+    <loc>https://shishuai.org/publication/</loc>
     <lastmod>2020-01-21T18:51:40+08:00</lastmod>
   </url>
   
@@ -48,22 +33,12 @@
   </url>
   
   <url>
-    <loc>https://shishuai.org/tags/tax/</loc>
-    <lastmod>2020-01-21T18:51:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shishuai.org/tags/test/</loc>
-    <lastmod>2020-01-21T18:51:40+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shishuai.org/post/2019-09-06-traditional-ira-vs-roth-ira/</loc>
     <lastmod>2020-01-21T18:51:40+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shishuai.org/post/2019-09-19-word-break-with-cost/</loc>
+    <loc>https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/</loc>
     <lastmod>2020-01-21T18:51:40+08:00</lastmod>
   </url>
   
@@ -82,15 +57,15 @@
   </url>
   
   <url>
+    <loc>https://shishuai.org/authors/</loc>
+  </url>
+  
+  <url>
     <loc>https://shishuai.org/categories/</loc>
   </url>
   
   <url>
     <loc>https://shishuai.org/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shishuai.org/publication/</loc>
   </url>
   
   <url>
