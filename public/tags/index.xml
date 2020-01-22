@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Shuai Shi` personal site</title>
+    <link>https://shishuai.org/tags/</link>
+      <atom:link href="https://shishuai.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jan 2020 18:51:40 +0800</lastBuildDate>
+    <image>
+      <url>https://shishuai.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://shishuai.org/tags/</link>
+    </image>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>https://shishuai.org/tags/algorithm/</link>
+      <pubDate>Tue, 21 Jan 2020 18:51:40 +0800</pubDate>
+      <guid>https://shishuai.org/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Theory</title>
+      <link>https://shishuai.org/tags/graph-theory/</link>
+      <pubDate>Tue, 21 Jan 2020 18:51:40 +0800</pubDate>
+      <guid>https://shishuai.org/tags/graph-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tax</title>
+      <link>https://shishuai.org/tags/tax/</link>
+      <pubDate>Tue, 21 Jan 2020 18:51:40 +0800</pubDate>
+      <guid>https://shishuai.org/tags/tax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://shishuai.org/tags/test/</link>
+      <pubDate>Tue, 21 Jan 2020 18:51:40 +0800</pubDate>
+      <guid>https://shishuai.org/tags/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

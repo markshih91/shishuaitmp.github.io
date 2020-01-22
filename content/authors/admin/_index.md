@@ -14,8 +14,8 @@ role: Researcher of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
-- name: AMSS, Chinese Academy of Sciences
-  url: ""
+- name: Juefx Technology Co., Ltd
+  url: "http://juefx.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Computer Vision, Machine Learning, Deep Learning and Mathematics.
@@ -42,7 +42,7 @@ social:
 - icon: envelope
   icon_pack: fas
   # link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-  link: 'markshih91@gmail.com'
+  link: 'mailto:markshih91@gmail.com'
 - icon: github
   icon_pack: fab
   link: https://github.com/markshih91
@@ -65,6 +65,10 @@ user_groups:
 - Visitors
 ---
 
-I`m a researcher of computer vision and artificial intelligence at Juefx Technology Co., Ltd. My research interests include computer vision, machine learning, deep learning and mathematics. Both of my bachelor's and master's degree are in Mathematics, and I proficient in computer algorithm.
+I`m a Researcher of Computer Vision and Artificial Intelligence at Juefx Technology Co., Ltd. My research interests are Computer Vision, Machine Learning and Deep Learning. I'm also interested in more applied problems with nice theoretical components in Mathematices.
 
-[reapet for page aligning, in developing...] I`m a researcher of computer vision and artificial intelligence at Juefx Technology Co., Ltd. My research interests include computer vision, machine learning, deep learning and mathematics. Both of my bachelor's and master's degree are in Mathematics, and I proficient in computer algorithm.
+I obtained my M.S. in Pure Mathematics from [AMSS, Chinese Academy of Sciences](http://www.amss.ac.cn/) in May 2019. I finished my undergrad in Information and Computing Science at Chongqing University of Technology in 2013, and won several Competition Awards in Mathematics. Here is my Detailed [CV](files/cv.pdf).
+
+I maintain a [github](https://github.com/markshih91) account and a [blog](/post).
+
+You can contact me through email markshih91@gmail.com.
