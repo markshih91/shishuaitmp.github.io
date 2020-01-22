@@ -752,12 +752,19 @@ $z$ is clearly no more than $nm$, where $m=|W|$. Also, it is also clear $z=O(n\s
 
 <section id="comments">
   
-    <script src="https://utteranc.es/client.js"
-        repo="markshih91/markshih91.github.io"
-        issue-term="pathname"
-        theme="github-light"  
-        crossorigin="anonymous"
-        async>
+    <div id="gitalk-container"></div>
+<script type="text/javascript">
+        const gitalk = new Gitalk({
+            clientID: 'b00d07c218c835d0400c',
+            clientSecret: '940251712896d05f83ba8350629f474cd4f1d146',
+            repo: 'markshih91.github.io',
+            owner: 'markshih91',
+            admin: ['markshih91'],
+            id: location.pathname,      
+            distractionFreeMode: false  
+            })
+
+        gitalk.render('gitalk-container')
 </script>
   
 </section>
