@@ -29,6 +29,10 @@
   <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
   <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
 
+  {{ if eq $item.Type "post" }}
+      <span style="float:right">{{$item.Params.date.Format "2006-01-02" }}</span>
+  {{ end }}
+
   {{ if eq $item.Type "talk" }}
   <div class="article-metadata">
     <span>
