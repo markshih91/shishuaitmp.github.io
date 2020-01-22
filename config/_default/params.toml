@@ -198,7 +198,7 @@ plugins_js  = []
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  #   3: Gittalk (https://gitalk.github.io/)
+  #   3: Gittalk (https://gittalk.github.io/)
   engine = 3
 
   # Which page types are commentable?
