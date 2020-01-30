@@ -80,23 +80,5 @@ In other words, we need $\alpha&amp;rsquo;\leq \alpha(1-\beta&amp;rsquo;)$ in or
 </description>
     </item>
     
-    <item>
-      <title>Privacy Policy</title>
-      <link>https://shishuai.org/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://shishuai.org/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&#39;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>https://shishuai.org/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://shishuai.org/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&#39;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
