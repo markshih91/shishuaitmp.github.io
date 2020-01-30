@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on </title>
-    <link>/authors/</link>
-    <description>Recent content in Authors on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <title>Authors | Shuai Shi` personal site</title>
+    <link>https://shishuai.org/authors/</link>
+      <atom:link href="https://shishuai.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://shishuai.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>https://shishuai.org/authors/</link>
+    </image>
     
     <item>
       <title></title>
-      <link>/authors/admin/_index/</link>
+      <link>https://shishuai.org/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/admin/_index/</guid>
-      <description>&lt;p&gt;I`m a Researcher of Computer Vision and Artificial Intelligence at Juefx Technology Co., Ltd. My research interests are Computer Vision, Machine Learning and Deep Learning. I&amp;rsquo;m also interested in more applied problems with nice theoretical components in Mathematices.&lt;/p&gt;
-
+      <guid>https://shishuai.org/authors/admin/</guid>
+      <description>&lt;p&gt;I`m a Researcher of Computer Vision and Artificial Intelligence at Juefx Technology Co., Ltd. My research interests are Computer Vision, Machine Learning and Deep Learning. I&#39;m also interested in more applied problems with nice theoretical components in Mathematices.&lt;/p&gt;
 &lt;p&gt;I obtained my M.S. in Pure Mathematics from &lt;a href=&#34;http://www.amss.ac.cn/&#34;&gt;AMSS, Chinese Academy of Sciences&lt;/a&gt; in May 2019. I finished my undergrad in Information and Computing Science at Chongqing University of Technology in 2013, and won several Competition Awards in Mathematics. Here is my Detailed &lt;a href=&#34;files/cv.pdf&#34;&gt;CV&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I maintain a &lt;a href=&#34;https://github.com/markshih91&#34;&gt;github&lt;/a&gt; account and a &lt;a href=&#34;/post&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can contact me through email markshih91@gmail.com.&lt;/p&gt;
+&lt;p&gt;I maintain a &lt;a href=&#34;https://github.com/markshih91&#34;&gt;github&lt;/a&gt; account and a &lt;a href=&#34;https://shishuai.org/post&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can contact me through email &lt;a href=&#34;mailto:markshih91@gmail.com&#34;&gt;markshih91@gmail.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

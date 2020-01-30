@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shuai Shi | 史帅">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="I&#39;ve read a lot of articles on Traditional vs Roth IRA. One can do a serious mathematical analysis of which one is better, given that you want to invest a total of $x$ income into the account for a particular year. Money in excess of $x$ will be put in a normal investment account.
+There is a widely held belief that if your effective tax rate is higher today than when you cash out, it is always better to do pre-tax contribution (Traditional IRA).">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Shuai Shi` personal site">
+  <meta property="og:url" content="https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/">
+  <meta property="og:title" content="Traditional vs Roth IRA under fixed amount of investment[for test] | Shuai Shi` personal site">
+  <meta property="og:description" content="I&#39;ve read a lot of articles on Traditional vs Roth IRA. One can do a serious mathematical analysis of which one is better, given that you want to invest a total of $x$ income into the account for a particular year. Money in excess of $x$ will be put in a normal investment account.
+There is a widely held belief that if your effective tax rate is higher today than when you cash out, it is always better to do pre-tax contribution (Traditional IRA)."><meta property="og:image" content="https://shishuai.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://shishuai.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-01-21T18:51:40&#43;08:00">
+    
+    <meta property="article:modified_time" content="2020-01-21T18:51:40&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/"
+  },
+  "headline": "Traditional vs Roth IRA under fixed amount of investment[for test]",
+  
+  "datePublished": "2020-01-21T18:51:40+08:00",
+  "dateModified": "2020-01-21T18:51:40+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shuai Shi | 史帅"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shuai Shi` personal site",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "img/https://shishuai.org/"
+    }
+  },
+  "description": "I've read a lot of articles on Traditional vs Roth IRA. One can do a serious mathematical analysis of which one is better, given that you want to invest a total of $x$ income into the account for a particular year. Money in excess of $x$ will be put in a normal investment account.\nThere is a widely held belief that if your effective tax rate is higher today than when you cash out, it is always better to do pre-tax contribution (Traditional IRA)."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Traditional vs Roth IRA under fixed amount of investment[for test] | Shuai Shi` personal site</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Shuai Shi` personal site</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Shuai Shi` personal site</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Traditional vs Roth IRA under fixed amount of investment[for test]</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><p>I've read a lot of articles on Traditional vs Roth IRA. One can do a serious mathematical analysis of which one is better, given that you want to invest a total of $x$ income into the account for a particular year. Money in excess of $x$ will be put in a normal investment account.</p>
+<p>There is a widely held belief that if your effective tax rate is higher today than when you cash out, it is always better to do pre-tax contribution (Traditional IRA). However, we can show this is not always the case. You need effective tax rate to be somewhat lower unless you are in the lowest of tax bracket. Assume for simplicity, you don't have to pay state income tax.</p>
+<p>Assumption you way more than enough money to maximize the contribution.</p>
+<p>Here are the 3 options.</p>
+<ul>
+<li>Type 1: (Traditional IRA, 401(k)) No tax when contributing, taxed as ordinary income afterwards.</li>
+<li>Type 2: (Roth IRA, Roth 401(k)) Taxed when contributing, and no taxes with withdrawal.</li>
+<li>Type 3: Normal account, taxed when contributing, and tax with either ordinary income or capital gain taxes depending on type.</li>
+</ul>
+<p>Consider the simplest model. You have a stock that you buy and hold. It generates no dividends. At the time when you sell it, it worths $k$ times more. All your money will be going into that stock.</p>
+<p>Assume you allocate $x$ income into $x_1,x_2,x_3$, which is the amount of income allocated into Type $1,2,3$ accounts, respectively.</p>
+<p>How much after tax income is generated when you sell the stock?</p>
+<p>Let $\alpha$ be the (approximate) effective tax rate today, $\alpha'$ is an (approximate) effective tax rate when you sell. $\beta'$ is the capital gain tax rate.</p>
+<p>The after-tax income contributed by each account is</p>
+<ul>
+<li>Type 1: $kx_1(1-\alpha&rsquo;)$</li>
+<li>Type 2: $kx_2(1-\alpha)$</li>
+<li>Type 3: $(k-1)x_3(1-\alpha)(1-\beta&rsquo;) + x_3(1-\alpha)$ $= x_3(1-\alpha)((k-1)(1-\beta&rsquo;)+1)$</li>
+</ul>
+<p>Now, we also have the following constraint. $x_1+x_2(1-\alpha)=B$, where $B$ is the maximum contribution into type 1 and type 2 accounts. This happens because they share the same bound (this is true for both 401(k) and IRA). Note that $x_1+x_2+x_3=x$. Since $B$ and $x$ are fixed, we have $x_2 = \frac{B-x_1}{1-\alpha}$, and $x_3 = x-x_1-\frac{B-x_1}{1-\alpha}$</p>
+<p>Define $f(x_1)=kx_1(1-\alpha&rsquo;) + k(B-x_1) + $$(x-x_1-\frac{B-x_1}{1-\alpha})(1-\alpha)((k-1)(1-\beta&rsquo;)+1)$, which is a linear function. We take the derivative of $f$ and obtain the slope if $k(\alpha-\alpha&rsquo;)- (k-1)\alpha\beta'$. If the slope is positive, it means when should maximize type $1$ account, and if the slope is negative, we should maximize type $2$ account.</p>
+<p>In order for the inequality to work for all $k&gt;1$, we need $\alpha-\alpha&rsquo;\geq \alpha\beta'$.
+In other words, we need $\alpha&rsquo;\leq \alpha(1-\beta&rsquo;)$ in order to safely say it is better to maximize type 1.</p>
+<p>We didn't even consider what happens if there are dividend involved. It would shift the scale even more toward type 2.</p>
+<p>I think the moral of the story is you have to be careful and actually model everything correctly. Also, since there is no way to know the tax rate in the future, some people hedge the risk by putting money in both type 1 and type 2 accounts.</p>
+<p>It looks like this still suggest putting money in Traditional IRA is better than Roth IRA if your current tax rate is <em>much higher</em> than your future tax rate.</p>
+</div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/number-theory/">number theory</a>
+  
+  <a class="badge badge-light" href="/tags/matching-learing/">matching learing</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/&amp;text=Traditional%20vs%20Roth%20IRA%20under%20fixed%20amount%20of%20investment[for%20test]" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/&amp;t=Traditional%20vs%20Roth%20IRA%20under%20fixed%20amount%20of%20investment[for%20test]" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Traditional%20vs%20Roth%20IRA%20under%20fixed%20amount%20of%20investment[for%20test]&amp;body=https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/&amp;title=Traditional%20vs%20Roth%20IRA%20under%20fixed%20amount%20of%20investment[for%20test]" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/&amp;title=Traditional%20vs%20Roth%20IRA%20under%20fixed%20amount%20of%20investment[for%20test]" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hue59279b5211f3dd5a6cfb25e214f9481_68573_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://shishuai.org/">Shuai Shi | 史帅</a></h5>
+      <h6 class="card-subtitle">Researcher of Artificial Intelligence</h6>
+      <p class="card-text">My research interests include Computer Vision, Machine Learning, Deep Learning and Mathematics.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:markshih91@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/markshih91" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://zhihu.com/people/shuai_shi" target="_blank" rel="noopener">
+        <i class="fab fa-zhihu"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+<section id="comments">
+  
+    <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+        const gitalk = new Gitalk({
+            clientID: 'b00d07c218c835d0400c',
+            clientSecret: '940251712896d05f83ba8350629f474cd4f1d146',
+            repo: 'markshih91.github.io',
+            owner: 'markshih91',
+            admin: ['markshih91'],
+            id: location.pathname,      
+            distractionFreeMode: false  
+            })
+
+        gitalk.render('gitalk-container')
+</script>
+  
+</section>
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/2019-09-06-traditional-ira-vs-roth-ira/">Traditional vs Roth IRA under fixed amount of investment[for test]</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
