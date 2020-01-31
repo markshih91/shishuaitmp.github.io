@@ -14,9 +14,9 @@
     
     <item>
       <title>Traditional vs Roth IRA under fixed amount of investment[for test]</title>
-      <link>https://shishuai.org/post/2019-09-06-traditional-ira-vs-roth-ira/</link>
+      <link>https://shishuai.org/post/2020/01/21/traditional-vs-roth-ira-under-fixed-amount-of-investmentfor-test/</link>
       <pubDate>Tue, 21 Jan 2020 18:51:40 +0800</pubDate>
-      <guid>https://shishuai.org/post/2019-09-06-traditional-ira-vs-roth-ira/</guid>
+      <guid>https://shishuai.org/post/2020/01/21/traditional-vs-roth-ira-under-fixed-amount-of-investmentfor-test/</guid>
       <description>&lt;p&gt;I&#39;ve read a lot of articles on Traditional vs Roth IRA. One can do a serious mathematical analysis of which one is better, given that you want to invest a total of $x$ income into the account for a particular year. Money in excess of $x$ will be put in a normal investment account.&lt;/p&gt;
 &lt;p&gt;There is a widely held belief that if your effective tax rate is higher today than when you cash out, it is always better to do pre-tax contribution (Traditional IRA). However, we can show this is not always the case. You need effective tax rate to be somewhat lower unless you are in the lowest of tax bracket. Assume for simplicity, you don&#39;t have to pay state income tax.&lt;/p&gt;
 &lt;p&gt;Assumption you way more than enough money to maximize the contribution.&lt;/p&gt;
@@ -48,9 +48,9 @@ In other words, we need $\alpha&amp;rsquo;\leq \alpha(1-\beta&amp;rsquo;)$ in or
     
     <item>
       <title>Traditional vs Roth IRA under fixed amount of investment[for test]</title>
-      <link>https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/</link>
+      <link>https://shishuai.org/publication/2020/01/21/traditional-vs-roth-ira-under-fixed-amount-of-investmentfor-test/</link>
       <pubDate>Tue, 21 Jan 2020 18:51:40 +0800</pubDate>
-      <guid>https://shishuai.org/publication/2019-09-06-traditional-ira-vs-roth-ira/</guid>
+      <guid>https://shishuai.org/publication/2020/01/21/traditional-vs-roth-ira-under-fixed-amount-of-investmentfor-test/</guid>
       <description>&lt;p&gt;I&#39;ve read a lot of articles on Traditional vs Roth IRA. One can do a serious mathematical analysis of which one is better, given that you want to invest a total of $x$ income into the account for a particular year. Money in excess of $x$ will be put in a normal investment account.&lt;/p&gt;
 &lt;p&gt;There is a widely held belief that if your effective tax rate is higher today than when you cash out, it is always better to do pre-tax contribution (Traditional IRA). However, we can show this is not always the case. You need effective tax rate to be somewhat lower unless you are in the lowest of tax bracket. Assume for simplicity, you don&#39;t have to pay state income tax.&lt;/p&gt;
 &lt;p&gt;Assumption you way more than enough money to maximize the contribution.&lt;/p&gt;
