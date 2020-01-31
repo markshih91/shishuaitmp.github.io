@@ -65,7 +65,7 @@ user_groups:
 - Visitors
 ---
 
-I`m a Researcher of Computer Vision and Artificial Intelligence at Juefx Technology Co., Ltd. My research interests are Computer Vision, Machine Learning and Deep Learning. I'm also interested in more applied problems with nice theoretical components in Mathematices.
+I`m a Researcher of Computer Vision and Artificial Intelligence at Juefx Technology Co., Ltd. My research interests are Computer Vision, Machine Learning and Deep Learning. I'm also interested in more applied problems with nice theoretical components in Mathematices. Here are some of my favorite site/blog [links](/links).
 
 I obtained my M.S. in Pure Mathematics from [AMSS, Chinese Academy of Sciences](http://www.amss.ac.cn/) in May 2019. I finished my undergrad in Information and Computing Science at Chongqing University of Technology in 2013, and won several Competition Awards in Mathematics. Here is my Detailed [CV](files/cv.pdf).
 
