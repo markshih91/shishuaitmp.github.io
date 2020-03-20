@@ -14,9 +14,9 @@
     
     <item>
       <title>2018年中科院自动化所模式识别考博真题解答</title>
-      <link>https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/</link>
+      <link>https://shishuai.org/post/2020/03/19/1/</link>
       <pubDate>Thu, 19 Mar 2020 21:35:58 +0800</pubDate>
-      <guid>https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/</guid>
+      <guid>https://shishuai.org/post/2020/03/19/1/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1hzoezAQ-zkePQJ7lLt9H2g&#34;&gt;点击这里下载题目&lt;/a&gt;，提取码: wbs4&lt;/p&gt;
 &lt;h3 id=&#34;1解&#34;&gt;1、解&lt;/h3&gt;
 &lt;p&gt;(1) 令$g_{ij}(x)=\ln(\frac{p(x|w_i)}{p(x|w_j)})$$=\ln p(x|w_i)-\ln p(x|w_j)$，则$g_{ij}$可以作为$w_i$和$w_j$两个类别的判别函数，如果$g_{ij}(x)\ge0$，则$x\in w_i$，否则$x\in w_j$. （其中 $i,j = 1,2,\dots, c$）&lt;/p&gt;
