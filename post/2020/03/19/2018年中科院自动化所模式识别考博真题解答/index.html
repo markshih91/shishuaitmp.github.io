@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shuai Shi | 史帅">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="点击这里下载题目，提取码: wbs4 1、解 (1) 令$g_{ij}(x)=\ln(\frac{p(x|w_i)}{p(x|w_j)})$$=\ln p(x|w_i)-\ln p(x">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="SHUAI SHI">
+  <meta property="og:url" content="https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/">
+  <meta property="og:title" content="2018年中科院自动化所模式识别考博真题解答 | SHUAI SHI">
+  <meta property="og:description" content="点击这里下载题目，提取码: wbs4 1、解 (1) 令$g_{ij}(x)=\ln(\frac{p(x|w_i)}{p(x|w_j)})$$=\ln p(x|w_i)-\ln p(x"><meta property="og:image" content="https://shishuai.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://shishuai.org/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-03-19T21:35:58&#43;08:00">
+    
+    <meta property="article:modified_time" content="2020-03-19T21:35:58&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/"
+  },
+  "headline": "2018年中科院自动化所模式识别考博真题解答",
+  
+  "datePublished": "2020-03-19T21:35:58+08:00",
+  "dateModified": "2020-03-19T21:35:58+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "SHISHUAI"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "SHUAI SHI",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "img/https://shishuai.org/"
+    }
+  },
+  "description": "点击这里下载题目，提取码: wbs4 1、解 (1) 令$g_{ij}(x)=\\ln(\\frac{p(x|w_i)}{p(x|w_j)})$$=\\ln p(x|w_i)-\\ln p(x"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>2018年中科院自动化所模式识别考博真题解答 | SHUAI SHI</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">SHUAI SHI</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">SHUAI SHI</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/post"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>2018年中科院自动化所模式识别考博真题解答</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/shishuai/">SHISHUAI</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 19, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p><a href="https://pan.baidu.com/s/1hzoezAQ-zkePQJ7lLt9H2g">点击这里下载题目</a>，提取码: wbs4</p>
+<h3 id="1解">1、解</h3>
+<p>(1) 令$g_{ij}(x)=\ln(\frac{p(x|w_i)}{p(x|w_j)})$$=\ln p(x|w_i)-\ln p(x|w_j)$，则$g_{ij}$可以作为$w_i$和$w_j$两个类别的判别函数，如果$g_{ij}(x)\ge0$，则$x\in w_i$，否则$x\in w_j$. （其中 $i,j = 1,2,\dots, c$）</p>
+<p>(2) 对(1)中的判别函数进行化简得</p>
+<div>
+$$
+\begin{aligned}
+g_{ij}(x)= & \ln\frac{p(x|w_i)}{p(x|w_j)} = \ln p(x|w_i)-\ln p(x|w_j) \\
+= & \ln\{\frac{1}{(2\pi)^\frac{d}{2}|\Sigma_i|^\frac{1}{2}}\exp(-\frac{1}{2}(x-u_i)^T\Sigma_i^{-1}(x-u_i))\} \\
+& - \ln\{\frac{1}{(2\pi)^\frac{d}{2}|\Sigma_j|^\frac{1}{2}}\exp(-\frac{1}{2}(x-u_j)^T\Sigma_j^{-1}(x-u_j))\} \\
+= & -\frac{1}{2}\{(x-u_i)^T\Sigma_i^{-1}(x-u_i) - (x-u_j)^T\Sigma_j^{-1}(x-u_j)\}-\frac{1}{2}\ln\frac{|\Sigma_i|}{|\Sigma_j|} \\
+= & -\frac{1}{2}(x^T\Sigma_i^{-1}x - x^T\Sigma_j^{-1}x) + (u_i^T\Sigma_i^{-1}-u_j^T\Sigma_j^{-1})x-\frac{1}{2}(u_i^T\Sigma_i^{-1}u_i - u_j^T\Sigma_j^{-1}u_j) \\
+& - \frac{1}{2}\ln\frac{|\Sigma_i|}{|\Sigma_j|}
+\end{aligned}
+$$
+</div>
+显然，当$\Sigma_i=\Sigma_j$时，$g_{ij}$为线性判别函数，因此当各类条件概率密度函数中的协方差相同时，为线性判别函数。
+<h3 id="2解">2、解</h3>
+<p>(1) Parzen窗概率密度估计函数为
+$$p(x)=\frac{1}{\sqrt{2\pi}\sigma}\exp(-\frac{(x-x_i)^2}{2\sigma^2})$$
+当$\sigma=0.5$时
+$$p(x)=\sqrt{\frac{2}{\pi}}\exp(-2(x-x_i)^2)$$
+其中$x_i$为密度函数均值</p>
+<p>(2)
+概率密度函数为</p>
+<div>
+$$p(x)=\left\{
+\begin{aligned}
+\frac{1}{8|x-8|} & , & x>6 \\
+\frac{1}{8|x-4|} & , & 2< x\le6 \\
+\frac{1}{8|x|} & , & -1< x\le2 \\
+\frac{1}{8|x+2|} & , & x\le-1
+\end{aligned}
+\right.
+$$
+</div>
+曲线图为
+ <center><img src="/img/20200319-CASIA-pr2018/2018-2-2.png" width="50%"></center>
+<h3 id="3解">3、解</h3>
+<p>(1) 算法步骤：</p>
+<ol>
+<li>
+<p>确定聚类个数$c$，随机选择$c$个聚类中心;</p>
+</li>
+<li>
+<p>对每个样本点，选择与其欧式距离最近的聚类中心作为其类别代表，将具有相同类别代表的样本归为一类，划分为$c$个类，计算每个类的样本均值$m_i$，以$m_i$作为每类新的聚类中心，$i=1,\dots,c$;</p>
+</li>
+<li>
+<p>对于第$i$类的一个样本$x'$，计算将其放入$j$类之后，总的平方误差的减少量$I_{ij}$
+$$I_{ij}=\frac{n_i}{n_i-1}||x&rsquo;-m_i||^2-\frac{n_j}{n_j+1}||x&rsquo;-m_j||^2$$
+令$I_{ik}=\mathop{max}\limits_j{I_{ij}}$，如果$I_{ik}&gt;0$，则将$x'$从第$i$个类别移动到第$k$个类别，更新$i$类和$k$类均值
+$$m_i \leftarrow m_i-\frac{1}{n_i-1}(x&rsquo;-m_i)$$
+$$m_k \leftarrow m_k+\frac{1}{n_k+1}(x&rsquo;-m_k)$$
+否则不移动$x'$;</p>
+</li>
+<li>
+<p>重复2.和3.过程，如果移动任何样本都不会减少总的平方误差，则算法结束。</p>
+</li>
+</ol>
+<p>(2) 假设将$x'$移动到$D_j$聚类之后，$D_j$聚类新的均值为</p>
+<div>$$m_j^*=m_j+\frac{1}{n_j+1}(x'-m_j)$$</div>
+$D_j$聚类新的平方误差为
+$$
+\begin{aligned}
+J_j^* =& \sum_{x\in D_j\cup {x'}}||x-m_j^*||^2 \\
+=& \sum_{x\in D_j}||x-m_j^*||^2+||x'-m_j^*||^2 \\
+=& \sum_{x\in D_j}||x-m_j-\frac{1}{n_j+1}(x'-m_j)||^2+||x'-m_j-\frac{1}{n_j+1}(x'-m_j)||^2 \\
+=& \sum_{x\in D_j}\left\{||x-m_j||^2 + ||\frac{1}{n_j+1}(x'-m_j)||^2-\frac{2(x-m_j)^T(x'-m_j)}{n_j+1}\right\} \\
+& +\frac{n_j^2}{(n_j+1)^2}||x'-m_j||^2 \\
+=& J_j + \frac{n_j}{(n_j+1)^2}||x'-m_j||^2+\frac{n_j^2}{(n_j+1)^2}||x'-m_j||^2 \\
+=& J_j + \frac{n_j}{n_j+1}||x'-m_j||^2
+\end{aligned}
+$$
+<h3 id="4解">4、解</h3>
+<p>(1) Adaboost算法步骤：</p>
+<ol>
+<li>选择m个弱分类器$f_j(x)\in {-1, 1}$, 如果$x$为第一类样本，则结果为$1$，否则结果为$-1$, $j=1,\dots,m$；</li>
+<li>初始化样本权重$w_i=\frac{1}{n}$, $i=1,\dots,n$；</li>
+<li>令$j=1\to m$，作如下操作：
+<ol>
+<li>使用$n$个由$w_i$加权的样本$x_i$构造分类器$f_j$，$i=1,\dots,n$；</li>
+<li>计算$f_j$在训练样本上的分类错误率$e_j$，令$c_j=log\frac{1-e_j}{e_j}$. 如果$f_j$对$x_i$样本分类正确，则权重$w_i$不变，否则$w_i=w_i\cdot exp(c_j)$，$i=1,\dots,n$；</li>
+<li>将$w_i$归一化，$i=1,\dots,n$.</li>
+</ol>
+</li>
+<li>构造最终分类器$f(x)=\mathrm{sgn}\left[\sum_{j=1}^m c_jf_j(x)\right]$.</li>
+</ol>
+<p>(2) 训练误差为0后，Adaboost会继续增大分类间距，提升模型的泛化能力，减少测试误差</p>
+<h3 id="5解">5、解</h3>
+<p>(1) K-L变换矩阵为</p>
+<div>
+$$
+\begin{aligned}
+\Sigma 
+=& E[x\cdot x^T] \\
+=& \frac{1}{8}\{(-4, 1)^T (-4, 1) + (-2, 1)^T (-2, 1) \\
+=& (-4, -1)^T (-4, -1) + (-2, -1)^T (-2, -1) \\
+=& (4, 1)^T (4, 1) + (2, 1)^T (2, 1) \\
+=& (4, -1)^T (4, -1) + (2, -1)^T (2, -1)\} \\
+=& \begin{gathered}
+\begin{pmatrix} 10 & 0 \\ 0 & 1 \end{pmatrix}
+\end{gathered}
+\end{aligned}
+$$
+</div>
+显然，$\Sigma$的特征值为$10$和$1$，对应的特征向量分别为$(1, 0)^T$和$(0, 1)^T$.
+<p>(2) 令两类集合分别为$w_1$和$w_2$, 各类样本均值分别为$m_1$和$m_2$，则</p>
+<div>
+$$
+\begin{aligned}
+& S_b=(m_1-m_2)(m_1-m_2)^T \\
+& S_w=\sum_{x\in w_1}(x-m_1)(x-m_1)^T+\sum_{x\in w_2}(x-m_2)(x-m_2)^T
+\end{aligned}
+$$
+</div>
+对第一个特征计算样本的$S_b$和$S_w$得
+$$S_b=36, S_w=8$$
+因此$J_5=\frac{11}{2}$
+对第二个特征计算样本的$S_b$和$S_w$得
+$$S_b=0, S_w=8$$
+因此$J_5=0$. 由于$\frac{11}{2}>0$，所以应选择第一个特征进行分类任务。
+<h3 id="6解">6、解</h3>
+<p>(1) 原优化问题：</p>
+<div>
+$$
+\begin{aligned}
+& \min_{W,b} & \frac{1}{2}||W||^2+C\sum_{i=1}^n \xi_i\\
+& s.t. & y_i(W^Tx_i+b)\ge1-\xi_i, \\
+& & \xi_i\ge0, i=1,\dots,n.
+\end{aligned}
+$$
+</div>
+对偶优化问题：
+<div>
+$$
+\begin{aligned}
+& \max_{\alpha} & \sum_{i=1}^n\alpha_i-\frac{1}{2}\sum_{i=1}^n\sum_{j=1}^na_ia_jy_iy_jx_i^Tx_j\\
+& s.t. & \sum_{i=1}^na_iy_i=0, \\
+& & 0\le\alpha_i\le C, i=1,\dots,n.
+\end{aligned}
+$$
+</div>
+<p>(2) 当$C$很大时，分类超平面对错分样本比较敏感，因此要保证不错分的情况下，最大化最小间隔</p>
+ <center><img src="/img/20200319-CASIA-pr2018/2018-6-2.jpg" width="50%"></center>
+<p>(3) 当$C$很小时，分类超平面对错分样本不敏感，而对$W$的长度比较敏感</p>
+ <center><img src="/img/20200319-CASIA-pr2018/2018-6-3.jpg" width="50%"></center>
+<h3 id="7解">7、解</h3>
+<p>(1) 假设输入层神经元个数为$d$个，每个神经元的输入为$x_i$，$i=1,\dots,d$；隐藏层的神经元个数为$d_1$个，激活值分别为$h&rsquo;_j$，输出分别为$h_j=\sigma_1(h&rsquo;_i)$，其中$\sigma_1$为隐藏层的激活函数，$j=1,\dots,d_1$；输出层的神经元个数为$c$个，激活值分别为$y&rsquo;_k$，输出为$y_k=\sigma_2(y&rsquo;_k)$，其中$\sigma_2$为输出层的激活函数，$k=1,\dots,c$.</p>
+<p>输入层与隐藏层之间的参数为$w^{(1)}_{ij}$和$b^{(1)}_j$，满足：</p>
+<div>
+$$h'_j=\sum_{i=1}^dw^{(1)}_{ij}x_i+b^{(1)}_j$$
+</div>
+<p>输入层与隐藏层之间的参数为$w^{(2)}_{jk}$和$b^{(2)}_k$，满足：</p>
+<div>
+$$y'_k=\sum_{j=1}^dw^{(2)}_{jk}h_j+b^{(2)}_k$$
+</div>
+<p>令$L$为网络的损失函数，则有：</p>
+<div>
+$$\left\{
+\begin{aligned}
+& \nabla_{w^{(2)}_{jk}}=\sum_{k=1}^c\frac{\partial L}{\partial y_k}\frac{\partial y_k}{\partial y'_k}\frac{\partial y'_k}{\partial w^{(2)}_{jk}} = \sum_{k=1}^c\frac{\partial L}{\partial y_k}\sigma'_2(y'_k)h_j \\
+& \nabla_{b^{(2)}_k}=\sum_{k=1}^c\frac{\partial L}{\partial y_k}\frac{\partial y_k}{\partial y'_k}\frac{\partial y'_k}{\partial b^{(2)}_k} = \sum_{k=1}^c\frac{\partial L}{\partial y_k}\sigma'_2(y'_k) \\
+& \nabla_{w^{(1)}_{ij}}=\sum_{k=1}^c\sum_{j=1}^{d_1}\frac{\partial L}{\partial y_k}\frac{\partial y_k}{\partial y'_k}\frac{\partial y'_k}{\partial h_j}\frac{\partial h_j}{\partial h'_j}\frac{\partial h'_j}{\partial w^{(1)}_{ij}} = \sum_{k=1}^c\sum_{j=1}^{d_1}\frac{\partial L}{\partial y_k}\sigma'_2(y'_k)w^{(2)}_{jk}\sigma'_1(h'_j)x_i\\
+& \nabla_{b^{(1)}_j}=\sum_{k=1}^c\sum_{j=1}^{d_1}\frac{\partial L}{\partial y_k}\frac{\partial y_k}{\partial y'_k}\frac{\partial y'_k}{\partial h_j}\frac{\partial h_j}{\partial h'_j}\frac{\partial h'_j}{\partial b^{(1)}_j} = \sum_{k=1}^c\sum_{j=1}^{d_1}\frac{\partial L}{\partial y_k}\sigma'_2(y'_k)w^{(2)}_{jk}\sigma'_1(h'_j)
+\end{aligned}
+\right.
+$$
+</div>
+<p>网络经过前向传播之后，得到了计算梯度$\nabla_{w^{(2)}_{jk}}$, $\nabla_{b^{(2)}_k}$, $\nabla_{w^{(1)}_{ij}}$, $\nabla_{b^{(1)}_j}$所需的各个变量的值，因此可以利用反向传播依次求出它们的值，然后利用梯度下降对参数$w^{(2)}_{jk}$, $b^{(2)}_k$, $w^{(1)}_{ij}$, $b^{(1)}_j$进行更新：</p>
+<div>
+$$\left\{
+\begin{aligned}
+& w^{(2)}_{jk}\gets w^{(2)}_{jk} - \eta\nabla_{w^{(2)}_{jk}} \\
+& b^{(2)}_k\gets b^{(2)}_k - \eta\nabla_{b^{(2)}_k} \\
+& w^{(1)}_{ij}\gets w^{(1)}_{ij} - \eta\nabla_{w^{(1)}_{ij}} \\
+& b^{(1)}_j\gets b^{(1)}_j - \eta\nabla_{b^{(1)}_j}
+\end{aligned}
+\right.
+$$
+</div>
+其中$\eta$为学习率。
+<div>
+(2) 沿用(1)中的假设，计算步骤为：
+<ol>
+<li> 初始化参数$w^{(2)}_{jk}$，$b^{(2)}_k$，$w^{(1)}_{ij}$, $b^{(1)}_j$;</li>
+<li> 利用前向传播过程得到输出，从输入$x_i$，得到$h_j$和$y_k$，$i=1,\dots,d$，$j=1,\dots,d_1$，$k=1,\dots,c$；</li>
+<li> 计算样本标签和输出$y_k$之间的差异，即损失函数$L$；</li>
+<li> 参数更新，如果模型损失函数小于阈值，则结束。否则，利用(1)中公式更新参数$w^{(2)}_{jk}$, $b^{(2)}_k$, $w^{(1)}_{ij}$, $b^{(1)}_j$的值；</li>
+<li> 重复1,2,3,4，直至结束。</li>
+</ol>
+</div>
+(3) 如果神经网络中的激活函数为Sigmoid函数，以$\sigma_1$为例，即
+$$
+\sigma_1(x)=\frac{1}{1+\exp(-x)}
+$$
+则
+<div>
+$$
+\sigma'_1(x)=\frac{\exp(-x)}{(1+\exp(-x))^2}=\sigma_1(x)(1-\sigma_1(x))
+$$
+</div>
+当x远离$0$时，$\sigma'_1(x)\to 0$，从而$\nabla_{w^{(1)}_{ij}}\to 0$, $\nabla_{b^{(1)}_j}\to 0$，这样参数$w^{(1)}_{ij}$, $b^{(1)}_j$在训练过程中得不到有效更新，因此出现麻痹现象。
+<h3 id="8解">8、解</h3>
+<p>(1) 深度学习定义：深度学习是机器学习算法的一种，通过创建多层神经网络模型，使其能够自动提取样本中的特征，并对样本进行分类或回归，采用反向传播算法对参数进行更新，从而得到对样本有效分类或回归的模型。</p>
+<p>(2)</p>
+<ol>
+<li>卷积神经网络(CNN)：图像分类、目标检测；</li>
+<li>递归神经网络(RNN)：机器翻译、人机对话；</li>
+<li>全卷积神经网路：语义分割；</li>
+<li>全连接神经网络：邮件分类</li>
+</ol>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/pattern-recognition/">pattern recognition</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/&amp;text=2018%e5%b9%b4%e4%b8%ad%e7%a7%91%e9%99%a2%e8%87%aa%e5%8a%a8%e5%8c%96%e6%89%80%e6%a8%a1%e5%bc%8f%e8%af%86%e5%88%ab%e8%80%83%e5%8d%9a%e7%9c%9f%e9%a2%98%e8%a7%a3%e7%ad%94" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/&amp;t=2018%e5%b9%b4%e4%b8%ad%e7%a7%91%e9%99%a2%e8%87%aa%e5%8a%a8%e5%8c%96%e6%89%80%e6%a8%a1%e5%bc%8f%e8%af%86%e5%88%ab%e8%80%83%e5%8d%9a%e7%9c%9f%e9%a2%98%e8%a7%a3%e7%ad%94" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=2018%e5%b9%b4%e4%b8%ad%e7%a7%91%e9%99%a2%e8%87%aa%e5%8a%a8%e5%8c%96%e6%89%80%e6%a8%a1%e5%bc%8f%e8%af%86%e5%88%ab%e8%80%83%e5%8d%9a%e7%9c%9f%e9%a2%98%e8%a7%a3%e7%ad%94&amp;body=https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/&amp;title=2018%e5%b9%b4%e4%b8%ad%e7%a7%91%e9%99%a2%e8%87%aa%e5%8a%a8%e5%8c%96%e6%89%80%e6%a8%a1%e5%bc%8f%e8%af%86%e5%88%ab%e8%80%83%e5%8d%9a%e7%9c%9f%e9%a2%98%e8%a7%a3%e7%ad%94" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://shishuai.org/post/2020/03/19/2018%E5%B9%B4%E4%B8%AD%E7%A7%91%E9%99%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%80%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%80%83%E5%8D%9A%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/&amp;title=2018%e5%b9%b4%e4%b8%ad%e7%a7%91%e9%99%a2%e8%87%aa%e5%8a%a8%e5%8c%96%e6%89%80%e6%a8%a1%e5%bc%8f%e8%af%86%e5%88%ab%e8%80%83%e5%8d%9a%e7%9c%9f%e9%a2%98%e8%a7%a3%e7%ad%94" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/shishuai/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+<section id="comments">
+  
+    <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+        const gitalk = new Gitalk({
+            clientID: 'b00d07c218c835d0400c',
+            clientSecret: '940251712896d05f83ba8350629f474cd4f1d146',
+            repo: 'markshih91.github.io',
+            owner: 'markshih91',
+            admin: ['markshih91'],
+            id: location.pathname,      
+            distractionFreeMode: false  
+            })
+
+        gitalk.render('gitalk-container')
+</script>
+  
+</section>
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
