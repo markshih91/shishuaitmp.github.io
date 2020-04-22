@@ -19,27 +19,29 @@
       <guid>https://shishuai.org/post/2020/03/19/1/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1hzoezAQ-zkePQJ7lLt9H2g&#34;&gt;点击这里下载题目&lt;/a&gt;，提取码: wbs4&lt;/p&gt;
 &lt;h3 id=&#34;1解&#34;&gt;1、解&lt;/h3&gt;
-&lt;p&gt;(1) 令$g_{ij}(x)=\ln(\frac{p(x|w_i)}{p(x|w_j)})$$=\ln p(x|w_i)-\ln p(x|w_j)$，则$g_{ij}$可以作为$w_i$和$w_j$两个类别的判别函数，如果$g_{ij}(x)\ge0$，则$x\in w_i$，否则$x\in w_j$. （其中 $i,j = 1,2,\dots, c$）&lt;/p&gt;
-&lt;p&gt;(2) 对(1)中的判别函数进行化简得&lt;/p&gt;
+&lt;p&gt;(1) 令$g_{i}(x)=\ln p(w_i|x)=\ln(p(x|w_i)p(w_i))$$=\ln p(x|w_i)+\ln p(w_i)$，则$g_{i}$可以作为$w_i$类的判别函数. 此时,决策规则为：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果$g_{i}(x)=\max g_k(x)\ (k=1,2\dots,c)$，则$x\in w_i$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(2) 对(1)中的判别函数进行化简得=&lt;/p&gt;
 &lt;div&gt;
 $$
 \begin{aligned}
-g_{ij}(x)= &amp; \ln\frac{p(x|w_i)}{p(x|w_j)} = \ln p(x|w_i)-\ln p(x|w_j) \\
-= &amp; \ln\{\frac{1}{(2\pi)^\frac{d}{2}|\Sigma_i|^\frac{1}{2}}\exp(-\frac{1}{2}(x-u_i)^T\Sigma_i^{-1}(x-u_i))\} \\
-&amp; - \ln\{\frac{1}{(2\pi)^\frac{d}{2}|\Sigma_j|^\frac{1}{2}}\exp(-\frac{1}{2}(x-u_j)^T\Sigma_j^{-1}(x-u_j))\} \\
-= &amp; -\frac{1}{2}\{(x-u_i)^T\Sigma_i^{-1}(x-u_i) - (x-u_j)^T\Sigma_j^{-1}(x-u_j)\}-\frac{1}{2}\ln\frac{|\Sigma_i|}{|\Sigma_j|} \\
-= &amp; -\frac{1}{2}(x^T\Sigma_i^{-1}x - x^T\Sigma_j^{-1}x) + (u_i^T\Sigma_i^{-1}-u_j^T\Sigma_j^{-1})x-\frac{1}{2}(u_i^T\Sigma_i^{-1}u_i - u_j^T\Sigma_j^{-1}u_j) \\
-&amp; - \frac{1}{2}\ln\frac{|\Sigma_i|}{|\Sigma_j|}
+g_{ij}(x)= &amp; \ln p(x|w_i)+\ln p(w_i) \\
+= &amp; \ln\{\frac{1}{(2\pi)^\frac{d}{2}|\Sigma_i|^\frac{1}{2}}\exp(-\frac{1}{2}(x-u_i)^T\Sigma_i^{-1}(x-u_i))\}+\ln p(w_i) \\
+= &amp; -\frac{1}{2}\{(x-u_i)^T\Sigma_i^{-1}(x-u_i)\} - \frac{1}{2}\ln |\Sigma_i| - \frac{d}{2}\ln(2\pi) + \ln p(w_i)\\
+= &amp; -\frac{1}{2}(x^T\Sigma_i^{-1}x) + (u_i^T(\Sigma_i^{-1}+{\Sigma_i^{-1}}^T))x - \frac{1}{2}u_i^T\Sigma_i^{-1}u_i \\
+&amp; -\frac{1}{2}\ln |\Sigma_i|-\frac{d}{2}\ln(2\pi)+\ln p(w_i) \\
 \end{aligned}
 $$
 &lt;/div&gt;
-显然，当$\Sigma_i=\Sigma_j$时，$g_{ij}$为线性判别函数，因此当各类条件概率密度函数中的协方差相同时，为线性判别函数。
+显然，当$-\frac{1}{2}(x^T\Sigma_i^{-1}x)$与$i$无关时，即$\Sigma_i=\Sigma_j\ (i, j=1,2,\dots,c)$时，判别函数$g_i(x)$为线性函数。
 &lt;h3 id=&#34;2解&#34;&gt;2、解&lt;/h3&gt;
 &lt;p&gt;(1) Parzen窗概率密度估计函数为
-$$p(x)=\frac{1}{\sqrt{2\pi}\sigma}\exp(-\frac{(x-x_i)^2}{2\sigma^2})$$
+$$p(x)=\frac{1}{N}\sum_{i=1}^N\frac{1}{\sqrt{2\pi}\sigma}\exp(-\frac{(x-x_i)^2}{2\sigma^2})$$
 当$\sigma=0.5$时
-$$p(x)=\sqrt{\frac{2}{\pi}}\exp(-2(x-x_i)^2)$$
-其中$x_i$为密度函数均值&lt;/p&gt;
+$$p(x)=\frac{1}{N}\sum_{i=1}^N\sqrt{\frac{2}{\pi}}\exp(-2(x-x_i)^2)$$
+其中$N=4$为样本个数。&lt;/p&gt;
 &lt;p&gt;(2)
 概率密度函数为&lt;/p&gt;
 &lt;div&gt;
@@ -123,21 +125,19 @@ $$
 $$
 &lt;/div&gt;
 显然，$\Sigma$的特征值为$10$和$1$，对应的特征向量分别为$(1, 0)^T$和$(0, 1)^T$.
-&lt;p&gt;(2) 令两类集合分别为$w_1$和$w_2$, 各类样本均值分别为$m_1$和$m_2$，则&lt;/p&gt;
-&lt;div&gt;
+&lt;p&gt;(2) 令两类集合分别为$w_1$和$w_2$, 各类样本均值分别为$m_1$和$m_2$，总的样本均值为$m$，两类样本概率分别为$P_1$和$P_2$，则
 $$
 \begin{aligned}
-&amp; S_b=(m_1-m_2)(m_1-m_2)^T \\
-&amp; S_w=\sum_{x\in w_1}(x-m_1)(x-m_1)^T+\sum_{x\in w_2}(x-m_2)(x-m_2)^T
+&amp;amp; S_b=\sum_{i=1}^2P_i(m_i-m)(m_i-m)^T \&lt;br&gt;
+&amp;amp; S_w=\sum_{i=1}^2P_i\mathrm{E_{x\in w_i}}[(x-m_i)(x-m_i)^T]
 \end{aligned}
 $$
-&lt;/div&gt;
 对第一个特征计算样本的$S_b$和$S_w$得
-$$S_b=36, S_w=8$$
-因此$J_5=\frac{11}{2}$
+$$S_b=9, S_w=1$$
+因此$J_5=10$.
 对第二个特征计算样本的$S_b$和$S_w$得
-$$S_b=0, S_w=8$$
-因此$J_5=0$. 由于$\frac{11}{2}&gt;0$，所以应选择第一个特征进行分类任务。
+$$S_b=0, S_w=1$$
+因此$J_5=1$. 由于$10&amp;gt;1$，所以应选择第一个特征进行分类任务。&lt;/p&gt;
 &lt;h3 id=&#34;6解&#34;&gt;6、解&lt;/h3&gt;
 &lt;p&gt;(1) 原优化问题：&lt;/p&gt;
 &lt;div&gt;
@@ -224,9 +224,10 @@ $$
 &lt;p&gt;(2)&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;卷积神经网络(CNN)：图像分类、目标检测；&lt;/li&gt;
-&lt;li&gt;递归神经网络(RNN)：机器翻译、人机对话；&lt;/li&gt;
-&lt;li&gt;全卷积神经网路：语义分割；&lt;/li&gt;
-&lt;li&gt;全连接神经网络：邮件分类&lt;/li&gt;
+&lt;li&gt;循环神经网络(RNN)：机器翻译、人机对话；&lt;/li&gt;
+&lt;li&gt;全卷积神经网路(FCN)：语义分割；&lt;/li&gt;
+&lt;li&gt;全连接神经网络：邮件分类；&lt;/li&gt;
+&lt;li&gt;图神经网络(GNN)：知识图谱，推荐系统。&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
