@@ -23,11 +23,11 @@
 &lt;ul&gt;
 &lt;li&gt;如果$g_{i}(x)=\max g_k(x)\ (k=1,2\dots,c)$，则$x\in w_i$.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;(2) 对(1)中的判别函数进行化简得=&lt;/p&gt;
+&lt;p&gt;(2) 将$p(x|w_i)\sim N(\mu_i,\Sigma_i)$带入$g_{i}(x)$，有&lt;/p&gt;
 &lt;div&gt;
 $$
 \begin{aligned}
-g_{ij}(x)= &amp; \ln p(x|w_i)+\ln p(w_i) \\
+g_{i}(x)= &amp; \ln p(x|w_i)+\ln p(w_i) \\
 = &amp; \ln\{\frac{1}{(2\pi)^\frac{d}{2}|\Sigma_i|^\frac{1}{2}}\exp(-\frac{1}{2}(x-u_i)^T\Sigma_i^{-1}(x-u_i))\}+\ln p(w_i) \\
 = &amp; -\frac{1}{2}\{(x-u_i)^T\Sigma_i^{-1}(x-u_i)\} - \frac{1}{2}\ln |\Sigma_i| - \frac{d}{2}\ln(2\pi) + \ln p(w_i)\\
 = &amp; -\frac{1}{2}(x^T\Sigma_i^{-1}x) + (u_i^T(\Sigma_i^{-1}+{\Sigma_i^{-1}}^T))x - \frac{1}{2}u_i^T\Sigma_i^{-1}u_i \\
